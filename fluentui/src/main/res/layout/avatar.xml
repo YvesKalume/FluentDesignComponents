@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.microsoft.fluentui.persona.AvatarView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:avatarSize="xxlarge"
+        app:avatarBorderStyle="no_border"
+        app:avatarImageDrawable=""
+        app:avatarStyle="square"
+        app:email="yveskalume@gmail.com"
+        app:name="Kalume"
+        app:srcCompat=""
+        app:tint="@color/cardview_dark_background"
+        app:tintMode="multiply"
+        />
+</FrameLayout>
